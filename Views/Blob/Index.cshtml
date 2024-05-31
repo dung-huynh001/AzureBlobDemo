@@ -21,7 +21,7 @@
             "searchable": true,
             "order": [[1, 'asc']],
             "language": {
-                "emptyTable": "There are no doctors in the list.",
+                "emptyTable": "No records found",
             },
             "columns": [
                 {
@@ -42,6 +42,10 @@
                     "data": "description",
                     "title": "Description",
                     "className": "text-wrap"
+                },
+                {
+                    "data": "fileName",
+                    "title": "File Name",
                 },
                 {
                     "data": "createdDate",
@@ -94,7 +98,7 @@
                     document.body.removeChild(a);
                 },
                 error: function () {
-                    $('#message').text('Error downloading file');
+                    console.log("Failed to download file")
                 }
             })
         }
