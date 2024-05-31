@@ -289,68 +289,12 @@
       "PackagePath": "staticwebassets\\lib\\datatables\\images\\sort_desc_disabled.png"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\js\\dataTables.bootstrap.js",
-      "PackagePath": "staticwebassets\\lib\\datatables\\js\\dataTables.bootstrap.js"
+      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\js\\dataTables.responsive.js",
+      "PackagePath": "staticwebassets\\lib\\datatables\\js\\dataTables.responsive.js"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\js\\dataTables.bootstrap.min.js",
-      "PackagePath": "staticwebassets\\lib\\datatables\\js\\dataTables.bootstrap.min.js"
-    },
-    {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\js\\dataTables.bootstrap4.js",
-      "PackagePath": "staticwebassets\\lib\\datatables\\js\\dataTables.bootstrap4.js"
-    },
-    {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\js\\dataTables.bootstrap4.min.js",
-      "PackagePath": "staticwebassets\\lib\\datatables\\js\\dataTables.bootstrap4.min.js"
-    },
-    {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\js\\dataTables.dataTables.js",
-      "PackagePath": "staticwebassets\\lib\\datatables\\js\\dataTables.dataTables.js"
-    },
-    {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\js\\dataTables.dataTables.min.js",
-      "PackagePath": "staticwebassets\\lib\\datatables\\js\\dataTables.dataTables.min.js"
-    },
-    {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\js\\dataTables.foundation.js",
-      "PackagePath": "staticwebassets\\lib\\datatables\\js\\dataTables.foundation.js"
-    },
-    {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\js\\dataTables.foundation.min.js",
-      "PackagePath": "staticwebassets\\lib\\datatables\\js\\dataTables.foundation.min.js"
-    },
-    {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\js\\dataTables.jqueryui.js",
-      "PackagePath": "staticwebassets\\lib\\datatables\\js\\dataTables.jqueryui.js"
-    },
-    {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\js\\dataTables.jqueryui.min.js",
-      "PackagePath": "staticwebassets\\lib\\datatables\\js\\dataTables.jqueryui.min.js"
-    },
-    {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\js\\dataTables.material.js",
-      "PackagePath": "staticwebassets\\lib\\datatables\\js\\dataTables.material.js"
-    },
-    {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\js\\dataTables.material.min.js",
-      "PackagePath": "staticwebassets\\lib\\datatables\\js\\dataTables.material.min.js"
-    },
-    {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\js\\dataTables.semanticui.js",
-      "PackagePath": "staticwebassets\\lib\\datatables\\js\\dataTables.semanticui.js"
-    },
-    {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\js\\dataTables.semanticui.min.js",
-      "PackagePath": "staticwebassets\\lib\\datatables\\js\\dataTables.semanticui.min.js"
-    },
-    {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\js\\dataTables.uikit.js",
-      "PackagePath": "staticwebassets\\lib\\datatables\\js\\dataTables.uikit.js"
-    },
-    {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\js\\dataTables.uikit.min.js",
-      "PackagePath": "staticwebassets\\lib\\datatables\\js\\dataTables.uikit.min.js"
+      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\js\\dataTables.responsive.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatables\\js\\dataTables.responsive.min.js"
     },
     {
       "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\js\\jquery.dataTables.js",

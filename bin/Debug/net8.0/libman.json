@@ -4,8 +4,30 @@
   "libraries": [
     {
       "provider": "cdnjs",
+      "library": "datatables.net@1.13.4",
+      "destination": "wwwroot/lib/datatables/js/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "datatables-responsive@3.0.2",
+      "destination": "wwwroot/lib/datatables/js/"
+    },
+    {
+      "provider": "cdnjs",
       "library": "datatables@1.10.21",
-      "destination": "wwwroot/lib/datatables/"
+      "destination": "wwwroot/lib/datatables/datatables/",
+      "files": [
+        "images/sort_asc.png",
+        "images/sort_asc_disabled.png",
+        "images/sort_both.png",
+        "images/sort_desc.png",
+        "images/sort_desc_disabled.png"
+      ]
+    },
+    {
+      "provider": "cdnjs",
+      "library": "datatables@1.10.21",
+      "destination": "wwwroot/lib/datatables/css"
     }
   ]
 }

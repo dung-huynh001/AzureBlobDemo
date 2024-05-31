@@ -1,20 +1,35 @@
-﻿using AzureBlobDemo.Models;
-using AzureBlobDemo.Services;
+﻿using Azure.Storage.Blobs;
+using AzureBlobDemo.Domain.Entities;
+using AzureBlobDemo.Infrastructure.Context;
+using AzureBlobDemo.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace AzureBlobDemo.Controllers
 {
 	public class BlobController : Controller
 	{
-		private readonly BlobService _blobService;
+        private const string _containerName = "images";
+        private readonly BlobServiceClient _blobServiceClient;
+        private readonly BlobContainerClient _containerClient;
+        private readonly ApplicationDbContext _context;
+        private readonly string _host = @"https://nxdevdemo.blob.core.windows.net/images";
 
-		public BlobController(BlobService blobService)
+        public BlobController(BlobServiceClient blobServiceClient, ApplicationDbContext context)
 		{
-			this._blobService = blobService;
-		}
-        public IActionResult Index()
+            _blobServiceClient = blobServiceClient;
+            _containerClient = _blobServiceClient.GetBlobContainerClient(_containerName);
+            _containerClient.CreateIfNotExists();
+            _context = context;
+        }
+        public async Task<IActionResult> Index()
 		{
-			return View();
+            var blobs = new List<string>();
+            await foreach (var blobItem in _containerClient.GetBlobsAsync())
+            {
+                blobs.Add(blobItem.Name);
+            }
+            return View();
 		}
 
 		public IActionResult Add()
@@ -22,52 +37,143 @@ namespace AzureBlobDemo.Controllers
 			return View();
 		}
 
-		public IActionResult Update()
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Add([Bind("Title", "Description", "Image")] CreateItemVM model)
+        {
+            if (ModelState.IsValid)
+            {
+                var image = model.Image;
+                if (image != null && image.Length > 0)
+                {
+                    var blobClient = _containerClient.GetBlobClient(image.FileName);
+                    await blobClient.UploadAsync(image.OpenReadStream(), true);
+
+                    var item = new Item
+                    {
+                        Title = model.Title,
+                        Description = model.Description,
+                        FileName = model.Image.FileName
+                    };
+                    await _context.AddAsync(item);
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
+                }
+            }
+            return View(model);
+        }
+
+        
+        [HttpPost]
+		public async Task<IActionResult> LoadData()
 		{
-			return View();
+            string draw = HttpContext.Request.Form["draw"].FirstOrDefault() ?? "";
+            string searchValue = Request.Form["search[value]"].FirstOrDefault() ?? "";
+            int length = Int32.Parse(Request.Form["length"].FirstOrDefault() ?? "10");
+            int start = Int32.Parse(Request.Form["start"].FirstOrDefault() ?? "10");
+            var sortColumn = Request.Form["columns[" + Request.Form["order[0][column]"].FirstOrDefault() + "][name]"].FirstOrDefault();
+            var sortColumnDirection = Request.Form["order[0][dir]"].FirstOrDefault();
+
+            var records = _context.Set<Item>()
+                .Select(r => new ItemVM
+                {
+                    FileName = r.FileName,
+                    CreatedDate = r.CreatedDate,
+                    Description = r.Description,
+                    Id = r.Id,
+                    Title = r.Title,
+                });
+
+            var total = records.Count();
+            if (!String.IsNullOrEmpty(searchValue))
+            {
+                records = records.Where(r => r.Id.ToString().Contains(searchValue)
+                    || r.Title.ToLower().Contains(searchValue)
+                    || r.Description.ToLower().Contains(searchValue)
+                    || r.CreatedDate.ToString().ToLower().Contains(searchValue)
+                    || r.FileName.ToLower().Contains(searchValue));
+            }
+
+            if (!String.IsNullOrEmpty(sortColumn))
+            {
+                switch (Int32.Parse(sortColumn))
+                {
+                    case (2):
+                        records = sortColumnDirection == "asc" ? records.OrderBy(r => r.Title) : records.OrderByDescending(r => r.Title);
+                        break;
+                    case (3):
+                        records = sortColumnDirection == "asc" ? records.OrderBy(r => r.Description) : records.OrderByDescending(r => r.Description);
+                        break;
+                    case (4):
+                        records = sortColumnDirection == "asc" ? records.OrderBy(r => r.CreatedDate) : records.OrderByDescending(r => r.CreatedDate);
+                        break;
+                    default:
+                        records = sortColumnDirection == "asc" ? records.OrderBy(r => r.Id) : records.OrderByDescending(r => r.Id);
+                        break;
+                }
+            }
+
+            var filtered = records.Count();
+
+            records = records
+                .Skip(start)
+                .Take(length);
+
+            return Ok(new DataTableResponse<ItemVM>
+            {
+                Data = await records.ToListAsync(),
+                RecordsFiltered = filtered,
+                RecordsTotal = total,
+                Draw = draw
+            });
 		}
 
-		[HttpPost]
-		public async Task<IActionResult> Upload(ItemViewModel item)
-		{
-			var images = item.Image;
-			if (images != null && images.Length > 0)
-			{
-				using (var stream = images.OpenReadStream())
-				{
-					await _blobService.UploadFileAsync(images.FileName, stream);
-				}
-			}
+        [HttpDelete]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var item = await _context.Items.FindAsync(id);
+            if(item is null)
+            {
+                return NotFound();
+            }
 
-			return RedirectToAction("Index");
-		}
+            var fileName = item.FileName.Substring(item.FileName.LastIndexOf("/") + 1);
 
-		[HttpPost]
-		public async Task<IActionResult> Upload(IFormFile file)
-		{
-			if (file != null && file.Length > 0)
-			{
-				using (var stream = file.OpenReadStream())
-				{
-					await _blobService.UploadFileAsync(file.FileName, stream);
-				}
-			}
+            _context.Items.Remove(item);
+            await _context.SaveChangesAsync();
 
-			return RedirectToAction("Index");
-		}
 
-		[HttpPost]
-		public async Task<IActionResult> Download(string fileName)
-		{
-			var stream = await _blobService.DownloadFileAsync(fileName);
-			return File(stream, "application/octet-stream", fileName);
-		}
 
-		[HttpPost]
-		public async Task<IActionResult> Delete(string fileName)
-		{
-			await _blobService.DeleteFileAsync(fileName);
-			return RedirectToAction("Index");
-		}
-	}
+            var blobClient = _containerClient.GetBlobClient(fileName);
+            await blobClient.DeleteIfExistsAsync();
+
+            return NoContent();
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Download(int id)
+        {
+            try
+            {
+                var item = await _context.Items.FindAsync(id);
+                if (item is null)
+                {
+                    return NotFound();
+                }
+
+                var fileName = item.FileName.Substring(item.FileName.LastIndexOf("/") + 1);
+
+                var blobClient = _containerClient.GetBlobClient(fileName);
+                var memoryStream = new MemoryStream();
+                await blobClient.DownloadToAsync(memoryStream);
+                memoryStream.Position = 0;
+                var contentType = blobClient.GetProperties().Value.ContentType;
+                return File(memoryStream, contentType, fileName);
+            }
+            catch
+            {
+                return RedirectToAction("Index");
+            }
+        }
+    }
 }

@@ -1,39 +1,106 @@
-﻿
-@{
+﻿@{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+<div class="d-flex">
+    <a class="btn btn-primary ms-auto" asp-controller="Blob" asp-action="Add">Add New</a>
+</div>
+<table id="tblItems" class="display" style="width:100%"></table>
 
-<table id="tblItems" class="display">
-    <thead>
-        <tr>
-            <th>Column 1</th>
-            <th>Column 2</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Row 1 Data 1</td>
-            <td>Row 1 Data 2</td>
-        </tr>
-        <tr>
-            <td>Row 2 Data 1</td>
-            <td>Row 2 Data 2</td>
-        </tr>
-    </tbody>
-</table>
 
-<script src="~/lib/jquery/dist/jquery.min.js"></script>
-<script type="text/javascript">
-    $(document).ready(function () {
-        $('#tblItems').DataTable({
-            responsive: true,
-            columnDefs: [
-                { responsivePriority: 1, targets: 0 },
-                { responsivePriority: 2, targets: -1 }
+@section Scripts {
+    <script type="text/javascript">
+        var table = $('#tblItems').DataTable({
+            "ajax": {
+                "url": "/Blob/LoadData",
+                "type": "POST"
+            },
+            "serverSide": true,
+            "responsive": true,
+            "searchable": true,
+            "order": [[1, 'asc']],
+            "language": {
+                "emptyTable": "There are no doctors in the list.",
+            },
+            "columns": [
+                {
+                    "className": 'dt-control',
+                    "orderable": false,
+                    "data": null,
+                    "defaultContent": '',
+                },
+                {
+                    "data": "id",
+                    "title": 'ID',
+                },
+                {
+                    "data": "title",
+                    "title": "Title",
+                },
+                {
+                    "data": "description",
+                    "title": "Description",
+                    "className": "text-wrap"
+                },
+                {
+                    "data": "createdDate",
+                    "title": "Created Date",
+                    "className": "text-wrap"
+                },
+                {
+                    "data": "id",
+                    "title": "Action",
+                    "responsivePriority": 1,
+                    "searchable": true,
+                    "orderable": false,
+                    "render": (data, type, row) => `<button class="btn btn-sm btn-success" onclick="downloadItem(${data}, '${row.fileName}')">Download</button> <button class="btn btn-sm btn-danger" onclick="deleteItem(${data})">Delete</button>`
+                },
             ],
-            autoFill: true
         });
-    });
-</script>
+
+        function loadData() {
+            table.ajax.reload();
+        }
+
+        function deleteItem(id) {
+            $.ajax({
+                url: `/Blob/Delete?id=${id}`,
+                type: "DELETE",
+                success: (result) => {
+                    loadData();
+                },
+                error: (errormessage) => {
+                    alert(errormessage.responseText);
+                }
+            })
+        }
+
+        function downloadItem(id, fileName) {
+            $.ajax({
+                url: `/Blob/Download?id=${id}`,
+                type: "GET",
+                xhrFields: {
+                    responseType: 'blob'
+                },
+                success: function (data, status, xhr) {
+                    var blob = new Blob([data], { type: 'application/octet-stream' });
+                    var downloadUrl = URL.createObjectURL(blob);
+                    var a = document.createElement('a');
+                    a.href = downloadUrl;
+                    a.download = fileName;
+                    document.body.appendChild(a);
+                    a.click();
+                    document.body.removeChild(a);
+                },
+                error: function () {
+                    $('#message').text('Error downloading file');
+                }
+            })
+        }
+
+        $(document).ready(function () {
+            loadData();
+        });
+    </script>
+}

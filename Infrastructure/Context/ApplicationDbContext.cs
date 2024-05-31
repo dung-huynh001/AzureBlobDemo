@@ -18,7 +18,6 @@ namespace AzureBlobDemo.Infrastructure.Context
             foreach(var entity in base.ChangeTracker.Entries<BaseEntity>()
                 .Where(e => e.State == EntityState.Added || e.State == EntityState.Modified))
             {
-				entity.Entity.UpdatedDate = DateTime.Now;
 				if (entity.State == EntityState.Added)
 				{
 					entity.Entity.CreatedDate = DateTime.Now;
