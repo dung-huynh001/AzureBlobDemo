@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\images\\upload-icon.jpg",
+      "PackagePath": "staticwebassets\\images\\upload-icon.jpg"
+    },
+    {
       "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

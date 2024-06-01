@@ -13,7 +13,6 @@ namespace AzureBlobDemo.Controllers
         private readonly BlobServiceClient _blobServiceClient;
         private readonly BlobContainerClient _containerClient;
         private readonly ApplicationDbContext _context;
-        private readonly string _host = @"https://nxdevdemo.blob.core.windows.net/images";
 
         public BlobController(BlobServiceClient blobServiceClient, ApplicationDbContext context)
 		{
@@ -38,8 +37,7 @@ namespace AzureBlobDemo.Controllers
 		}
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Add([Bind("Title", "Description", "Image")] CreateItemVM model)
+        public async Task<IActionResult> Add([FromForm] CreateItemVM model)
         {
             if (ModelState.IsValid)
             {

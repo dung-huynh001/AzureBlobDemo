@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "opRpZz+C+GLbYgVwrzMXdqtz9sOMZ48RKAUY/N73VhE=",
+  "Hash": "x/g/hvYJVsCZB8bSZndu7HDPZRj5lP3cfu46Mt296uw=",
   "Source": "AzureBlobDemo",
   "BasePath": "_content/AzureBlobDemo",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\images\\upload-icon.jpg",
+      "SourceId": "AzureBlobDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\",
+      "BasePath": "_content/AzureBlobDemo",
+      "RelativePath": "images/upload-icon.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\upload-icon.jpg"
     },
     {
       "Identity": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\js\\site.js",

@@ -10,23 +10,107 @@
         <li class="breadcrumb-item active" aria-current="page">Add New</li>
     </ol>
 </nav>
+<div class="mb-3">
+    <label class="form-label">Title <span class="text-danger">*</span></label>
+    <input type="text" class="form-control" id="txtTitle" autocomplete="off">
+    <span class="text-danger validate">This field is required</span>
+</div>
+<div class="mb-3">
+    <label class="form-label">Description <span class="text-danger">*</span></label>
+    <input type="text" class="form-control" id="txtDescription" autocomplete="off">
+    <span class="text-danger validate">This field is required</span>
+</div>
 
-<form asp-controller="Blob" asp-action="Add" enctype="multipart/form-data">
-    <div class="mb-3">
-        <label asp-for="Title" class="form-label">Title</label>
-        <input type="text" class="form-control" asp-for="Title" autocomplete="off">
-        <span asp-validation-for="Title" class="text-danger"></span>
-    </div>
-    <div class="mb-3">
-        <label asp-for="Description" class="form-label">Description</label>
-        <input type="text" class="form-control" asp-for="Description" autocomplete="off">
-        <span asp-validation-for="Description" class="text-danger"></span>
-    </div>
-    <div class="mb-3">
-        <label asp-for="Image" class="form-label">Image</label>
-        <input class="form-control" asp-for="Image">
-        <span asp-validation-for="Image" class="text-danger"></span>
-    </div>
-    <button type="submit" value="Add" class="btn btn-primary">Submit</button>
-</form>
+<div class="mb-3">
+    <label class="form-label">Image <span class="text-danger">*</span></label>
+    <form asp-action="Add" id="frmDropzone" enctype="multipart/form-data" class="dropzone">
+        <div class="dz-message" data-dz-message>
+            <img src="~/images/upload-icon.jpg" style="height: 70px; width: 80px" />
+            <p>Drop file here or click to upload</p>
+        </div>
+    </form>
+    <span id="image-validate" class="text-danger validate">This field is required</span>
+</div>
+<button id="btn-submit" class="btn btn-primary">Submit</button>
 
+@section Scripts {
+    <script>
+        let arrImages = [];
+        let myDropzone = new Dropzone('.dropzone', {
+            maxFilesize: 2,
+            uploadMultiple: false,
+            maxFiles: 1,
+            acceptedFiles: 'image/jpeg, image/png',
+            addRemoveLinks: true,
+            dictRemoveFile: '<button class="btn btn-sm btn-outline-danger mt-2 btn-rm-file">Remove</button>',
+        })
+
+        myDropzone.on('addedfile', file => {
+            if (arrImages.length != 0) {
+                arrImages = [];
+                arrImages.push(file);
+                $('.btn-rm-file').not(':last').trigger('click');
+            }
+            arrImages.push(file);
+            $('#image-validate').removeClass('invalid').hide();
+        })
+
+        myDropzone.on('removedfile', file => {
+            let i = arrImages.indexOf(file);
+            arrImages.splice(i, 1);
+        })
+
+        $('#btn-submit').on('click', function (event) {
+            event.preventDefault();
+            let formData = new FormData();
+            let title = $('#txtTitle').val().trim();
+            let description = $('#txtDescription').val().trim();
+            let isValid = false;
+            $('input').each(function () {
+                var input = $(this);
+                var span = input.next('.validate');
+
+                if (input.val().trim() === '') {
+                    isValid = false;
+                    span.addClass('invalid').show();
+                } else {
+                    span.removeClass('invalid').hide();
+                    isValid = true;
+                }
+            });
+
+            if (arrImages.length === 0) {
+                $('#image-validate').addClass('invalid').show();
+                isValid = false;
+            } else {
+                $('#image-validate').removeClass('invalid').hide();
+                isValid = true;
+            }
+
+            if (isValid) {
+                formData.append('Title', title);
+                formData.append('Description', description);
+                formData.append('Image', arrImages[0]);
+
+                $.ajax({
+                    url: '/Blob/Add',
+                    type: 'POST',
+                    data: formData,
+                    processData: false,
+                    contentType: false,
+                    success: (response) => {
+                        $('.validate').hide();
+                        myDropzone.removeAllFiles();
+                        arrImages = [];
+                        window.location.assign('/Blob/Index');
+                    },
+                    error: (xhr, status, error) => {
+                        console.error('Error:', error);
+                        alert('An error occurred while submitting the form.');
+                    }
+                });
+            }
+        });
+
+    </script>
+}

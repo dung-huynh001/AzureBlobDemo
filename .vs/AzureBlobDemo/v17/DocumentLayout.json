@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|d:\\courses\\azureblobstorage\\azureblobdemo\\views\\blob\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|solutionrelative:views\\blob\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|d:\\courses\\azureblobstorage\\azureblobdemo\\domain\\entities\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|solutionrelative:domain\\entities\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|d:\\courses\\azureblobstorage\\azureblobdemo\\controllers\\blobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|solutionrelative:controllers\\blobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|d:\\courses\\azureblobstorage\\azureblobdemo\\models\\itemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|solutionrelative:models\\itemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|d:\\courses\\azureblobstorage\\azureblobdemo\\models\\updateitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|solutionrelative:models\\updateitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|d:\\courses\\azureblobstorage\\azureblobdemo\\models\\createitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,6 +23,18 @@
       "RelativeMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|d:\\courses\\azureblobstorage\\azureblobdemo\\views\\blob\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|solutionrelative:views\\blob\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|d:\\courses\\azureblobstorage\\azureblobdemo\\models\\itemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|solutionrelative:models\\itemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|d:\\courses\\azureblobstorage\\azureblobdemo\\models\\updateitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|solutionrelative:models\\updateitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|d:\\courses\\azureblobstorage\\azureblobdemo\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|solutionrelative:libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
@@ -46,11 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "UpdateItemVM.cs",
               "DocumentMoniker": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\Models\\UpdateItemVM.cs",
               "RelativeDocumentMoniker": "Models\\UpdateItemVM.cs",
@@ -62,27 +62,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Add.cshtml",
               "DocumentMoniker": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\Views\\Blob\\Add.cshtml",
               "RelativeDocumentMoniker": "Views\\Blob\\Add.cshtml",
               "ToolTip": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\Views\\Blob\\Add.cshtml",
               "RelativeToolTip": "Views\\Blob\\Add.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAABwAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-31T15:23:56.471Z"
+              "WhenOpened": "2024-05-31T15:23:56.471Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAcAAABfAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAsAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-31T14:39:10.342Z"
+              "WhenOpened": "2024-05-31T14:39:10.342Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -98,32 +100,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "CreateItemVM.cs",
               "DocumentMoniker": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\Models\\CreateItemVM.cs",
               "RelativeDocumentMoniker": "Models\\CreateItemVM.cs",
               "ToolTip": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\Models\\CreateItemVM.cs",
               "RelativeToolTip": "Models\\CreateItemVM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAiAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T14:18:00.011Z"
+              "WhenOpened": "2024-05-31T14:18:00.011Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Item.cs",
               "DocumentMoniker": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\Domain\\Entities\\Item.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Item.cs",
               "ToolTip": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\Domain\\Entities\\Item.cs",
               "RelativeToolTip": "Domain\\Entities\\Item.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAtwAkAAAA2AAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAtwAoAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-31T14:15:45.479Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "ItemVM.cs",
               "DocumentMoniker": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\Models\\ItemVM.cs",
               "RelativeDocumentMoniker": "Models\\ItemVM.cs",
@@ -135,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\Views\\Blob\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Blob\\Index.cshtml",
@@ -143,18 +146,17 @@
               "RelativeToolTip": "Views\\Blob\\Index.cshtml",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAABcAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-31T13:53:05.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-31T13:53:05.555Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "BlobController.cs",
               "DocumentMoniker": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\Controllers\\BlobController.cs",
               "RelativeDocumentMoniker": "Controllers\\BlobController.cs",
               "ToolTip": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\Controllers\\BlobController.cs",
               "RelativeToolTip": "Controllers\\BlobController.cs",
-              "ViewState": "AQIAAFIAAAAAAAAAAAAUwDcAAAAjAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAAIwD0AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T17:47:08.883Z",
               "EditorCaption": ""
