@@ -1,359 +1,363 @@
 {
   "Files": [
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AzureBlobDemo.bundle.scp.css",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AzureBlobDemo.bundle.scp.css",
       "PackagePath": "staticwebassets\\AzureBlobDemo.bundle.scp.css"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\css\\site.css",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\favicon.ico",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\images\\upload-icon.jpg",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\images\\person-avatar-02.png",
+      "PackagePath": "staticwebassets\\images\\person-avatar-02.png"
+    },
+    {
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\images\\upload-icon.jpg",
       "PackagePath": "staticwebassets\\images\\upload-icon.jpg"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\js\\site.js",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\css\\dataTables.bootstrap.css",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\datatables\\css\\dataTables.bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\datatables\\css\\dataTables.bootstrap.css"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\css\\dataTables.bootstrap.min.css",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\datatables\\css\\dataTables.bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\datatables\\css\\dataTables.bootstrap.min.css"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\css\\dataTables.bootstrap4.css",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\datatables\\css\\dataTables.bootstrap4.css",
       "PackagePath": "staticwebassets\\lib\\datatables\\css\\dataTables.bootstrap4.css"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\css\\dataTables.bootstrap4.min.css",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\datatables\\css\\dataTables.bootstrap4.min.css",
       "PackagePath": "staticwebassets\\lib\\datatables\\css\\dataTables.bootstrap4.min.css"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\css\\dataTables.foundation.css",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\datatables\\css\\dataTables.foundation.css",
       "PackagePath": "staticwebassets\\lib\\datatables\\css\\dataTables.foundation.css"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\css\\dataTables.foundation.min.css",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\datatables\\css\\dataTables.foundation.min.css",
       "PackagePath": "staticwebassets\\lib\\datatables\\css\\dataTables.foundation.min.css"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\css\\dataTables.jqueryui.css",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\datatables\\css\\dataTables.jqueryui.css",
       "PackagePath": "staticwebassets\\lib\\datatables\\css\\dataTables.jqueryui.css"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\css\\dataTables.jqueryui.min.css",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\datatables\\css\\dataTables.jqueryui.min.css",
       "PackagePath": "staticwebassets\\lib\\datatables\\css\\dataTables.jqueryui.min.css"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\css\\dataTables.material.css",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\datatables\\css\\dataTables.material.css",
       "PackagePath": "staticwebassets\\lib\\datatables\\css\\dataTables.material.css"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\css\\dataTables.material.min.css",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\datatables\\css\\dataTables.material.min.css",
       "PackagePath": "staticwebassets\\lib\\datatables\\css\\dataTables.material.min.css"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\css\\dataTables.semanticui.css",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\datatables\\css\\dataTables.semanticui.css",
       "PackagePath": "staticwebassets\\lib\\datatables\\css\\dataTables.semanticui.css"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\css\\dataTables.semanticui.min.css",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\datatables\\css\\dataTables.semanticui.min.css",
       "PackagePath": "staticwebassets\\lib\\datatables\\css\\dataTables.semanticui.min.css"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\css\\dataTables.uikit.css",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\datatables\\css\\dataTables.uikit.css",
       "PackagePath": "staticwebassets\\lib\\datatables\\css\\dataTables.uikit.css"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\css\\dataTables.uikit.min.css",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\datatables\\css\\dataTables.uikit.min.css",
       "PackagePath": "staticwebassets\\lib\\datatables\\css\\dataTables.uikit.min.css"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\css\\jquery.dataTables.css",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\datatables\\css\\jquery.dataTables.css",
       "PackagePath": "staticwebassets\\lib\\datatables\\css\\jquery.dataTables.css"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\css\\jquery.dataTables.min.css",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\datatables\\css\\jquery.dataTables.min.css",
       "PackagePath": "staticwebassets\\lib\\datatables\\css\\jquery.dataTables.min.css"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\css\\jquery.dataTables_themeroller.css",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\datatables\\css\\jquery.dataTables_themeroller.css",
       "PackagePath": "staticwebassets\\lib\\datatables\\css\\jquery.dataTables_themeroller.css"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\css\\jquery.dataTables_themeroller.min.css",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\datatables\\css\\jquery.dataTables_themeroller.min.css",
       "PackagePath": "staticwebassets\\lib\\datatables\\css\\jquery.dataTables_themeroller.min.css"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\images\\sort_asc.png",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\datatables\\images\\sort_asc.png",
       "PackagePath": "staticwebassets\\lib\\datatables\\images\\sort_asc.png"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\images\\sort_asc_disabled.png",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\datatables\\images\\sort_asc_disabled.png",
       "PackagePath": "staticwebassets\\lib\\datatables\\images\\sort_asc_disabled.png"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\images\\sort_both.png",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\datatables\\images\\sort_both.png",
       "PackagePath": "staticwebassets\\lib\\datatables\\images\\sort_both.png"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\images\\sort_desc.png",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\datatables\\images\\sort_desc.png",
       "PackagePath": "staticwebassets\\lib\\datatables\\images\\sort_desc.png"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\images\\sort_desc_disabled.png",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\datatables\\images\\sort_desc_disabled.png",
       "PackagePath": "staticwebassets\\lib\\datatables\\images\\sort_desc_disabled.png"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\js\\dataTables.responsive.js",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\datatables\\js\\dataTables.responsive.js",
       "PackagePath": "staticwebassets\\lib\\datatables\\js\\dataTables.responsive.js"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\js\\dataTables.responsive.min.js",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\datatables\\js\\dataTables.responsive.min.js",
       "PackagePath": "staticwebassets\\lib\\datatables\\js\\dataTables.responsive.min.js"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\js\\jquery.dataTables.js",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\datatables\\js\\jquery.dataTables.js",
       "PackagePath": "staticwebassets\\lib\\datatables\\js\\jquery.dataTables.js"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\datatables\\js\\jquery.dataTables.min.js",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\datatables\\js\\jquery.dataTables.min.js",
       "PackagePath": "staticwebassets\\lib\\datatables\\js\\jquery.dataTables.min.js"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\Courses\\AzureBlobStorage\\AzureBlobDemo\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

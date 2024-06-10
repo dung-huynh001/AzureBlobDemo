@@ -41,17 +41,18 @@ namespace AzureBlobDemo.Controllers
         {
             if (ModelState.IsValid)
             {
-                var image = model.Image;
+                IFormFile image = model.Image;
                 if (image != null && image.Length > 0)
                 {
-                    var blobClient = _containerClient.GetBlobClient(image.FileName);
+                    string fileName = Guid.NewGuid() + "_" + image.FileName;
+                    BlobClient blobClient = _containerClient.GetBlobClient(fileName);
                     await blobClient.UploadAsync(image.OpenReadStream(), true);
 
-                    var item = new Item
+                    Item item = new Item
                     {
                         Title = model.Title,
                         Description = model.Description,
-                        FileName = model.Image.FileName
+                        FileName = fileName
                     };
                     await _context.AddAsync(item);
                     await _context.SaveChangesAsync();

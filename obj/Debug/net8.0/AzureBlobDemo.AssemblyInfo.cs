@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AzureBlobDemo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09c5c5cb8ea73e5d777e644d79db2c92061b5817")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+83b64feb7fcce7e912c160521046f59ab51b5510")]
 [assembly: System.Reflection.AssemblyProductAttribute("AzureBlobDemo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AzureBlobDemo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

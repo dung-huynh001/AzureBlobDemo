@@ -1,5 +1,6 @@
 using Azure.Storage.Blobs;
 using AzureBlobDemo.Infrastructure.Context;
+using AzureBlobDemo.Middlewares;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,6 +21,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(opt =>
 //builder.Services.AddTransient<BlobService>();
 
 var app = builder.Build();
+app.UseMiddleware<LoggingMiddleware>();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
