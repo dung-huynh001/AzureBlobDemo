@@ -45,6 +45,8 @@
             dictRemoveFile: '<button class="btn btn-sm btn-outline-danger mt-2 btn-rm-file">Remove</button>',
         })
 
+
+        //Remove existing file before add new file
         myDropzone.on('addedfile', file => {
             if (arrImages.length != 0) {
                 arrImages = [];

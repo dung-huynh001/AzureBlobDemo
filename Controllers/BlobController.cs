@@ -21,13 +21,8 @@ namespace AzureBlobDemo.Controllers
             _containerClient.CreateIfNotExists();
             _context = context;
         }
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
 		{
-            var blobs = new List<string>();
-            await foreach (var blobItem in _containerClient.GetBlobsAsync())
-            {
-                blobs.Add(blobItem.Name);
-            }
             return View();
 		}
 
@@ -66,6 +61,7 @@ namespace AzureBlobDemo.Controllers
         [HttpPost]
 		public async Task<IActionResult> LoadData()
 		{
+            // Filter parameters of datatable request
             string draw = HttpContext.Request.Form["draw"].FirstOrDefault() ?? "";
             string searchValue = Request.Form["search[value]"].FirstOrDefault() ?? "";
             int length = Int32.Parse(Request.Form["length"].FirstOrDefault() ?? "10");
@@ -73,6 +69,8 @@ namespace AzureBlobDemo.Controllers
             var sortColumn = Request.Form["columns[" + Request.Form["order[0][column]"].FirstOrDefault() + "][name]"].FirstOrDefault();
             var sortColumnDirection = Request.Form["order[0][dir]"].FirstOrDefault();
 
+
+            // Get all records from db
             var records = _context.Set<Item>()
                 .Select(r => new ItemVM
                 {
@@ -84,6 +82,8 @@ namespace AzureBlobDemo.Controllers
                 });
 
             var total = records.Count();
+
+            // Filter by search value
             if (!String.IsNullOrEmpty(searchValue))
             {
                 records = records.Where(r => r.Id.ToString().Contains(searchValue)
@@ -93,6 +93,7 @@ namespace AzureBlobDemo.Controllers
                     || r.FileName.ToLower().Contains(searchValue));
             }
 
+            // Order table by column
             if (!String.IsNullOrEmpty(sortColumn))
             {
                 switch (Int32.Parse(sortColumn))
@@ -130,6 +131,8 @@ namespace AzureBlobDemo.Controllers
         [HttpDelete]
         public async Task<IActionResult> Delete(int id)
         {
+            // 
+
             var item = await _context.Items.FindAsync(id);
             if(item is null)
             {
