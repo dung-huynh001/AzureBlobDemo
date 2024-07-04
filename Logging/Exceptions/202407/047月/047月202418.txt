@@ -1,0 +1,40 @@
+2024/07/04 18:01:22 ==>	POST  	                                        		Line:0                                 	GUEST                                   	Service request failed.
+Status: 404 (The specified blob does not exist.)
+ErrorCode: BlobNotFound
+
+Headers:
+Transfer-Encoding: chunked
+Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+x-ms-request-id: 39403968-a01e-006d-16f0-cdf7c6000000
+x-ms-client-request-id: bc333a0f-5889-4e38-80bc-f2c0e1e013b7
+x-ms-version: 2024-05-04
+x-ms-error-code: BlobNotFound
+Date: Thu, 04 Jul 2024 09:01:21 GMT
+	
+
+2024/07/04 18:02:56 ==>	POST  	                                        		Line:0                                 	GUEST                                   	Service request failed.
+Status: 404 (The specified blob does not exist.)
+ErrorCode: BlobNotFound
+
+Headers:
+Transfer-Encoding: chunked
+Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+x-ms-request-id: 6e0312e7-701e-008a-03f0-cd183c000000
+x-ms-client-request-id: 640b8c5a-3c0a-42fd-89e3-5f953e906150
+x-ms-version: 2024-05-04
+x-ms-error-code: BlobNotFound
+Date: Thu, 04 Jul 2024 09:02:46 GMT
+	
+
+2024/07/04 18:46:10 ==>	GET   	                                        		Line:0                                 	GUEST                                   	The view 'https://nxdevdemo.blob.core.windows.net/unkou/f9a49b4a-cde7-4798-9aa3-6ecf87c73ede_avatar_1.jpg' was not found. The following locations were searched:
+/Views/Blob/https:/nxdevdemo.blob.core.windows.net/unkou/f9a49b4a-cde7-4798-9aa3-6ecf87c73ede_avatar_1.jpg.cshtml
+/Views/Shared/https:/nxdevdemo.blob.core.windows.net/unkou/f9a49b4a-cde7-4798-9aa3-6ecf87c73ede_avatar_1.jpg.cshtml	
+
+2024/07/04 18:46:21 ==>	GET   	                                        		Line:0                                 	GUEST                                   	The view 'https://nxdevdemo.blob.core.windows.net/unkou/f9a49b4a-cde7-4798-9aa3-6ecf87c73ede_avatar_1.jpg' was not found. The following locations were searched:
+/Views/Blob/https:/nxdevdemo.blob.core.windows.net/unkou/f9a49b4a-cde7-4798-9aa3-6ecf87c73ede_avatar_1.jpg.cshtml
+/Views/Shared/https:/nxdevdemo.blob.core.windows.net/unkou/f9a49b4a-cde7-4798-9aa3-6ecf87c73ede_avatar_1.jpg.cshtml	
+
+2024/07/04 18:47:40 ==>	GET   	                                        		Line:0                                 	GUEST                                   	The view 'https://nxdevdemo.blob.core.windows.net/unkou/f9a49b4a-cde7-4798-9aa3-6ecf87c73ede_avatar_1.jpg' was not found. The following locations were searched:
+/Views/Blob/https:/nxdevdemo.blob.core.windows.net/unkou/f9a49b4a-cde7-4798-9aa3-6ecf87c73ede_avatar_1.jpg.cshtml
+/Views/Shared/https:/nxdevdemo.blob.core.windows.net/unkou/f9a49b4a-cde7-4798-9aa3-6ecf87c73ede_avatar_1.jpg.cshtml	
+

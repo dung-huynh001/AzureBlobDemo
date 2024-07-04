@@ -58,7 +58,10 @@
                     "responsivePriority": 1,
                     "searchable": true,
                     "orderable": false,
-                    "render": (data, type, row) => `<button class="btn btn-sm btn-success" onclick="downloadItem(${data}, '${row.fileName}')">Download</button> <button class="btn btn-sm btn-danger" onclick="deleteItem(${data})">Delete</button>`
+                    "render": (data, type, row) => 
+                        `<a role="button" class="btn btn-sm btn-primary" href="/Blob/ViewDetail?id=${row.id}")">View</a>
+                            <button class="btn btn-sm btn-success" onclick="downloadItem(${data}, '${row.fileName}')">Download</button>
+                            <button class="btn btn-sm btn-danger" onclick="deleteItem(${data})">Delete</button>`
                 },
             ],
         });

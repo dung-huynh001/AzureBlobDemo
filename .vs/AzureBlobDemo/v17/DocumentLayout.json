@@ -3,56 +3,68 @@
   "WorkspaceRootPath": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|d:\\src\\asp.net_mvc\\azureblob\\20240605\\azureblobdemo\\middlewares\\loggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|solutionrelative:middlewares\\loggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|d:\\src\\asp.net_mvc\\azureblob\\20240605\\azureblobdemo\\views\\blob\\viewdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|solutionrelative:views\\blob\\viewdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|d:\\src\\asp.net_mvc\\azureblob\\20240605\\azureblobdemo\\views\\blob\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|solutionrelative:views\\blob\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|d:\\src\\asp.net_mvc\\azureblob\\20240605\\azureblobdemo\\views\\blob\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|solutionrelative:views\\blob\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|d:\\src\\asp.net_mvc\\azureblob\\20240605\\azureblobdemo\\models\\createitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|solutionrelative:models\\createitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|d:\\src\\asp.net_mvc\\azureblob\\20240605\\azureblobdemo\\models\\viewitemdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|solutionrelative:models\\viewitemdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|d:\\src\\asp.net_mvc\\azureblob\\20240605\\azureblobdemo\\controllers\\blobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|solutionrelative:controllers\\blobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|d:\\src\\asp.net_mvc\\azureblob\\20240605\\azureblobdemo\\logging\\exceptions\\202406\\056\u6708\\056\u6708202413.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|solutionrelative:logging\\exceptions\\202406\\056\u6708\\056\u6708202413.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|d:\\src\\asp.net_mvc\\azureblob\\20240605\\azureblobdemo\\logging\\exceptions\\202406\\056\u6708\\056\u6708202416.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|solutionrelative:logging\\exceptions\\202406\\056\u6708\\056\u6708202416.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|d:\\src\\asp.net_mvc\\azureblob\\20240605\\azureblobdemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|d:\\src\\asp.net_mvc\\azureblob\\20240605\\azureblobdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|d:\\src\\asp.net_mvc\\azureblob\\20240605\\azureblobdemo\\domain\\entities\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|solutionrelative:domain\\entities\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|d:\\src\\asp.net_mvc\\azureblob\\20240605\\azureblobdemo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|d:\\src\\asp.net_mvc\\azureblob\\20240605\\azureblobdemo\\models\\createitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|solutionrelative:models\\createitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|d:\\src\\asp.net_mvc\\azureblob\\20240605\\azureblobdemo\\models\\updateitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|solutionrelative:models\\updateitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|d:\\src\\asp.net_mvc\\azureblob\\20240605\\azureblobdemo\\models\\itemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|solutionrelative:models\\itemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|d:\\src\\asp.net_mvc\\azureblob\\20240605\\azureblobdemo\\models\\updateitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|solutionrelative:models\\updateitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|d:\\src\\asp.net_mvc\\azureblob\\20240605\\azureblobdemo\\logging\\exceptions\\202406\\056\u6708\\056\u6708202416.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|solutionrelative:logging\\exceptions\\202406\\056\u6708\\056\u6708202416.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|d:\\src\\asp.net_mvc\\azureblob\\20240605\\azureblobdemo\\views\\blob\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|solutionrelative:views\\blob\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|d:\\src\\asp.net_mvc\\azureblob\\20240605\\azureblobdemo\\views\\blob\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|solutionrelative:views\\blob\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|d:\\src\\asp.net_mvc\\azureblob\\20240605\\azureblobdemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|d:\\src\\asp.net_mvc\\azureblob\\20240605\\azureblobdemo\\middlewares\\loggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|solutionrelative:middlewares\\loggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|d:\\src\\asp.net_mvc\\azureblob\\20240605\\azureblobdemo\\logging\\exceptions\\202407\\047\u6708\\047\u6708202417.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|solutionrelative:logging\\exceptions\\202407\\047\u6708\\047\u6708202417.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|d:\\src\\asp.net_mvc\\azureblob\\20240605\\azureblobdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|d:\\src\\asp.net_mvc\\azureblob\\20240605\\azureblobdemo\\logging\\exceptions\\202406\\056\u6708\\056\u6708202413.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|solutionrelative:logging\\exceptions\\202406\\056\u6708\\056\u6708202413.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|d:\\src\\asp.net_mvc\\azureblob\\20240605\\azureblobdemo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F780880-551C-42DF-AFF7-F93FD3D58717}|AzureBlobDemo.csproj|d:\\src\\asp.net_mvc\\azureblob\\20240605\\azureblobdemo\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -66,11 +78,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "ViewItemDetail.cs",
+              "DocumentMoniker": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\Models\\ViewItemDetail.cs",
+              "RelativeDocumentMoniker": "Models\\ViewItemDetail.cs",
+              "ToolTip": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\Models\\ViewItemDetail.cs",
+              "RelativeToolTip": "Models\\ViewItemDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T09:50:34.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViewDetail.cshtml",
+              "DocumentMoniker": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\Views\\Blob\\ViewDetail.cshtml",
+              "RelativeDocumentMoniker": "Views\\Blob\\ViewDetail.cshtml",
+              "ToolTip": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\Views\\Blob\\ViewDetail.cshtml",
+              "RelativeToolTip": "Views\\Blob\\ViewDetail.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T09:39:29.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "047\u6708202417.txt",
+              "DocumentMoniker": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\Logging\\Exceptions\\202407\\047\u6708\\047\u6708202417.txt",
+              "RelativeDocumentMoniker": "Logging\\Exceptions\\202407\\047\u6708\\047\u6708202417.txt",
+              "ToolTip": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\Logging\\Exceptions\\202407\\047\u6708\\047\u6708202417.txt",
+              "RelativeToolTip": "Logging\\Exceptions\\202407\\047\u6708\\047\u6708202417.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-07-04T08:19:43.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "056\u6708202413.txt",
               "DocumentMoniker": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\Logging\\Exceptions\\202406\\056\u6708\\056\u6708202413.txt",
               "RelativeDocumentMoniker": "Logging\\Exceptions\\202406\\056\u6708\\056\u6708202413.txt",
@@ -82,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "056\u6708202416.txt",
               "DocumentMoniker": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\Logging\\Exceptions\\202406\\056\u6708\\056\u6708202416.txt",
               "RelativeDocumentMoniker": "Logging\\Exceptions\\202406\\056\u6708\\056\u6708202416.txt",
@@ -90,48 +141,50 @@
               "RelativeToolTip": "Logging\\Exceptions\\202406\\056\u6708\\056\u6708202416.txt",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-06-05T07:42:40.36Z"
+              "WhenOpened": "2024-06-05T07:42:40.36Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACzAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-05T04:06:13.211Z"
+              "WhenOpened": "2024-06-05T04:06:13.211Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
               "Title": "LoggingMiddleware.cs",
               "DocumentMoniker": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\Middlewares\\LoggingMiddleware.cs",
               "RelativeDocumentMoniker": "Middlewares\\LoggingMiddleware.cs",
               "ToolTip": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\Middlewares\\LoggingMiddleware.cs",
               "RelativeToolTip": "Middlewares\\LoggingMiddleware.cs",
-              "ViewState": "AQIAAFsAAAAAAAAAAAAcwDMAAAAIAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAwwCAAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-05T02:42:27.401Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAABcAAAAnAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-05T02:38:31.759Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 5,
               "Title": "UpdateItemVM.cs",
               "DocumentMoniker": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\Models\\UpdateItemVM.cs",
               "RelativeDocumentMoniker": "Models\\UpdateItemVM.cs",
@@ -139,61 +192,62 @@
               "RelativeToolTip": "Models\\UpdateItemVM.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T15:51:16.204Z"
+              "WhenOpened": "2024-05-31T15:51:16.204Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "Add.cshtml",
               "DocumentMoniker": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\Views\\Blob\\Add.cshtml",
               "RelativeDocumentMoniker": "Views\\Blob\\Add.cshtml",
               "ToolTip": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\Views\\Blob\\Add.cshtml",
               "RelativeToolTip": "Views\\Blob\\Add.cshtml",
-              "ViewState": "AQIAABEAAAAAAAAAAAAAADQAAAAlAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-31T15:23:56.471Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAIBJwAsAAAAGAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAIBZwAsAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-31T14:39:10.342Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "libman.json",
               "DocumentMoniker": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\libman.json",
               "RelativeDocumentMoniker": "libman.json",
               "ToolTip": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\libman.json",
               "RelativeToolTip": "libman.json",
-              "ViewState": "AQIAAAsAAAAAAAAAAABRwA0AAAAGAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAACBjwA0AAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-05-31T14:31:29.983Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CreateItemVM.cs",
               "DocumentMoniker": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\Models\\CreateItemVM.cs",
               "RelativeDocumentMoniker": "Models\\CreateItemVM.cs",
               "ToolTip": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\Models\\CreateItemVM.cs",
               "RelativeToolTip": "Models\\CreateItemVM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAnAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-31T14:18:00.011Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "Item.cs",
               "DocumentMoniker": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\Domain\\Entities\\Item.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Item.cs",
@@ -201,11 +255,12 @@
               "RelativeToolTip": "Domain\\Entities\\Item.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAtwAoAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T14:15:45.479Z"
+              "WhenOpened": "2024-05-31T14:15:45.479Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 6,
               "Title": "ItemVM.cs",
               "DocumentMoniker": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\Models\\ItemVM.cs",
               "RelativeDocumentMoniker": "Models\\ItemVM.cs",
@@ -213,30 +268,31 @@
               "RelativeToolTip": "Models\\ItemVM.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T14:15:24.536Z"
+              "WhenOpened": "2024-05-31T14:15:24.536Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\Views\\Blob\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Blob\\Index.cshtml",
               "ToolTip": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\Views\\Blob\\Index.cshtml",
               "RelativeToolTip": "Views\\Blob\\Index.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABcAAAApAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAC8AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-31T13:53:05.555Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "BlobController.cs",
               "DocumentMoniker": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\Controllers\\BlobController.cs",
               "RelativeDocumentMoniker": "Controllers\\BlobController.cs",
               "ToolTip": "D:\\src\\ASP.NET_MVC\\AzureBlob\\20240605\\AzureBlobDemo\\Controllers\\BlobController.cs",
               "RelativeToolTip": "Controllers\\BlobController.cs",
-              "ViewState": "AQIAAKMAAAAAAAAAAAAAALUAAAAAAAAA",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAIwJEAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T17:47:08.883Z",
               "EditorCaption": ""

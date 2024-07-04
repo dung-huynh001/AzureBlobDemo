@@ -1,0 +1,22 @@
+2024/07/04 17:18:30 ==>	POST  	                                        		Line:0                                 	GUEST                                   	Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.	
+
+2024/07/04 17:18:32 ==>	POST  	                                        		Line:0                                 	GUEST                                   	A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)	
+
+2024/07/04 17:18:32 ==>	POST  	                                        		Line:0                                 	GUEST                                   	A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)	
+
+2024/07/04 17:18:32 ==>	POST  	                                        		Line:0                                 	GUEST                                   	A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)	
+
+2024/07/04 17:57:24 ==>	POST  	                                        		Line:0                                 	GUEST                                   	Service request failed.
+Status: 404 (The specified blob does not exist.)
+ErrorCode: BlobNotFound
+
+Headers:
+Transfer-Encoding: chunked
+Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+x-ms-request-id: 57e0fb44-601e-0062-39f0-cd81aa000000
+x-ms-client-request-id: 30a444a7-d474-48bb-8640-eb041c1b5008
+x-ms-version: 2024-05-04
+x-ms-error-code: BlobNotFound
+Date: Thu, 04 Jul 2024 08:57:19 GMT
+	
+
