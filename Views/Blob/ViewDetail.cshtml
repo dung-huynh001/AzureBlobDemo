@@ -1,11 +1,91 @@
-﻿
-@{
+﻿@{
     ViewData["Title"] = "ViewDetail";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<style>
+    .show {
+        display: block;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .detail-value {
+        padding: 5px 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+
+    .detail-title {
+        font-weight: 500;
+    }
+</style>
+
 @model AzureBlobDemo.Models.ViewItemDetail
+<nav style="--cui-breadcrumb-divider: '>';" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a asp-controller="Blob" asp-action="Index">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">View Detail</li>
+    </ol>
+</nav>
 
+<div class="container">
+    <div class="d-flex align-items-center gap-5">
+        <div class="mb-3">
+            <img src="@Model.Url" alt="@Model.Url" class="img-thumbnail rounded-5"
+                style="width: 300px; height: auto; " />
+        </div>
+        <div class="flex-fill">
+            <div class="mb-3">
+                <label class="detail-title">Title</label>
+                <input id="title" type="text" class="detail-value w-100" disabled value="@Model.Title">
+            </div>
+            <div class="mb-3">
+                <label class="detail-title">Description</label>
+                <textarea id="description" class="w-100 detail-value" style="height: 150px;"
+                    disabled>@Model.Description</textarea>
+            </div>
+            <div class="d-flex gap-3 float-end">
+                <button id="btnEdit" class="btn btn-primary" style="display: none;">Edit</button>
+                <button id="btnCancel" class="btn btn-danger" style="display: none;">Cancel</button>
+                <button id="btnSubmit" class="btn btn-success" style="display: none;">Submit</button>
+            </div>
+        </div>
+    </div>
+</div>
 
-<h1>@Model.ToString()</h1>
-<img src="@Model.Url" alt="Alternate Text" />
+@section Scripts {
+    <script>
+        const btnEdit = $('#btnEdit');
+        const btnSubmit = $('#btnSubmit');
+        const btnCancel = $('#btnCancel');
+        btnEdit.on('click', () => {
+            handleEditMode();
+        })
 
+        btnSubmit.on('click', () => {
+            handleViewMode();
+        })
+
+        btnCancel.on('click', () => {
+            handleViewMode();
+        })
+
+        const handleEditMode = () => {
+            $('#title').removeAttr('disabled')
+            $('#description').removeAttr('disabled')
+            btnEdit.hide();
+            btnCancel.show();
+            btnSubmit.show();
+        }
+
+        const handleViewMode = () => {
+            $('#title').attr('disabled', true)
+            $('#description').attr('disabled', true)
+            btnEdit.show();
+            btnCancel.hide();
+            btnSubmit.hide();
+        }
+    </script>
+}

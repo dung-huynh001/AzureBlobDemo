@@ -10,11 +10,10 @@ namespace AzureBlobDemo.Controllers
 {
 	public class BlobController : Controller
 	{
-        private const string _containerName = "unkou";
+        private const string _containerName = "images";
         private readonly BlobServiceClient _blobServiceClient;
         private readonly BlobContainerClient _containerClient;
         private readonly ApplicationDbContext _context;
-
 		private readonly Dictionary<string, string> _contentTypes = new Dictionary<string, string>()
 		{
 			{".pdf", "application/pdf"},
@@ -93,20 +92,17 @@ namespace AzureBlobDemo.Controllers
 					string? contentType;
 					if (!_contentTypes.TryGetValue(extension, out contentType))
 					{
-						contentType = "application/octet-stream"; // set default contentType if it is null
+                        // set default contentType if it is null
+                        contentType = "application/octet-stream"; 
 					}
-
-					var headers = new BlobHttpHeaders
+                    BlobHttpHeaders headers = new BlobHttpHeaders
 					{
 						ContentType = contentType
 					};
-
 					await blobClient.UploadAsync(image.OpenReadStream(), new BlobUploadOptions
 					{
 						HttpHeaders = headers
 					});
-					//await blobClient.UploadAsync(image.OpenReadStream(), true);
-
 					Item item = new Item
                     {
                         Title = model.Title,
@@ -130,19 +126,16 @@ namespace AzureBlobDemo.Controllers
                 {
                     return NotFound();
                 }
-
                 string fileName = item.FileName.Substring(item.FileName.LastIndexOf("/") + 1);
-
                 BlobClient blobClient = _containerClient.GetBlobClient(fileName);
                 string imageUrl = blobClient.Uri.AbsoluteUri;
-                ViewItemDetail details = new ViewItemDetail 
+                ViewItemDetail details = new ViewItemDetail
                 {
                     Id = item.Id,
                     Description = item.Description,
                     Title = item.Title,
                     Url = imageUrl
                 };
-
                 return View(details);
             }
             catch
@@ -150,7 +143,6 @@ namespace AzureBlobDemo.Controllers
                 return RedirectToAction("Index");
             }
         }
-
         
         [HttpPost]
 		public async Task<IActionResult> LoadData()
@@ -162,8 +154,6 @@ namespace AzureBlobDemo.Controllers
             int start = Int32.Parse(Request.Form["start"].FirstOrDefault() ?? "10");
             string? sortColumn = Request.Form["columns[" + Request.Form["order[0][column]"].FirstOrDefault() + "][name]"].FirstOrDefault();
             string? sortColumnDirection = Request.Form["order[0][dir]"].FirstOrDefault();
-
-
             // Get all records from db
             var records = _context.Set<Item>()
                 .Select(r => new ItemVM
@@ -174,9 +164,7 @@ namespace AzureBlobDemo.Controllers
                     Id = r.Id,
                     Title = r.Title,
                 });
-
             int total = records.Count();
-
             // Filter by search value
             if (!String.IsNullOrEmpty(searchValue))
             {
@@ -186,7 +174,6 @@ namespace AzureBlobDemo.Controllers
                     || r.CreatedDate.ToString().ToLower().Contains(searchValue)
                     || r.FileName.ToLower().Contains(searchValue));
             }
-
             // Order table by column
             if (!String.IsNullOrEmpty(sortColumn))
             {
@@ -206,13 +193,10 @@ namespace AzureBlobDemo.Controllers
                         break;
                 }
             }
-
             int filtered = records.Count();
-
             records = records
                 .Skip(start)
                 .Take(length);
-
             return Ok(new DataTableResponse<ItemVM>
             {
                 Data = await records.ToListAsync(),
@@ -230,15 +214,11 @@ namespace AzureBlobDemo.Controllers
             {
                 return NotFound();
             }
-
             string fileName = item.FileName.Substring(item.FileName.LastIndexOf("/") + 1);
-
             _context.Items.Remove(item);
             await _context.SaveChangesAsync();
-
 			BlobClient blobClient = _containerClient.GetBlobClient(fileName);
             await blobClient.DeleteIfExistsAsync();
-
             return NoContent();
         }
 
@@ -252,9 +232,7 @@ namespace AzureBlobDemo.Controllers
                 {
                     return NotFound();
                 }
-
                 string fileName = item.FileName.Substring(item.FileName.LastIndexOf("/") + 1);
-
                 BlobClient blobClient = _containerClient.GetBlobClient(fileName);
                 MemoryStream memoryStream = new MemoryStream();
                 await blobClient.DownloadToAsync(memoryStream);

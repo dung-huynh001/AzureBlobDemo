@@ -31,7 +31,7 @@
     </form>
     <span id="image-validate" class="text-danger validate">This field is required</span>
 </div>
-<button id="btn-submit" class="btn btn-primary">Submit</button>
+<button id="btn-submit" class="btn btn-success">Submit</button>
 
 @section Scripts {
     <script>
@@ -44,7 +44,6 @@
             addRemoveLinks: true,
             dictRemoveFile: '<button class="btn btn-sm btn-outline-danger mt-2 btn-rm-file">Remove</button>',
         })
-
 
         //Remove existing file before add new file
         myDropzone.on('addedfile', file => {
@@ -68,7 +67,8 @@
             let title = $('#txtTitle').val().trim();
             let description = $('#txtDescription').val().trim();
             let isValid = false;
-            $('input').each(function () {
+
+            $('input.form-control').each(function () {
                 var input = $(this);
                 var span = input.next('.validate');
 
@@ -86,7 +86,6 @@
                 isValid = false;
             } else {
                 $('#image-validate').removeClass('invalid').hide();
-                isValid = true;
             }
 
             if (isValid) {
